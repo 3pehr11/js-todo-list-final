@@ -1,0 +1,65 @@
+/* RESET */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f4f6f8;
+  }
+  
+  /* App Card */
+  .todo-app {
+    max-width: 500px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .todo-title {
+    color: #0a1a2f; /* Navy */
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #0a1a2f;
+    border-color: #0a1a2f;
+  }
+  
+  .btn-primary:hover {
+    background-color: #132f55;
+  }
+  
+  /* Filters */
+  .filters .active {
+    background-color: #0a1a2f;
+    color: white;
+  }
+  
+  /* Todo Item */
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Completed */
+  .completed {
+    text-decoration: line-through;
+    background-color: #e6e6e6;
+    color: #6c757d;
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    background-color: #121212;
+  }
+  
+  body.dark .todo-app {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  body.dark .btn-outline-secondary {
+    color: #ccc;
+    border-color: #555;
+  }
+    
